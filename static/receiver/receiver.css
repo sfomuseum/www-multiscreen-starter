@@ -1,0 +1,17 @@
+#qr {
+        position: absolute;
+        bottom: 2.5rem;
+	right: 2.5rem;
+	z-index: 1000;
+	height:150px;
+	width:150px;
+	background-color:#fff;
+	border: solid thin;
+	display:none;
+}
+
+#url {
+        position: absolute;
+        bottom: .5rem;
+	right: 2.5rem;
+}
