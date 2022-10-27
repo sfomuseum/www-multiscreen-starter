@@ -24,6 +24,8 @@ For background, see:
 
 ## Tools
 
+Tools in this package have been written in the [Go programming language](https://go.dev) such that they can be compiled to run on Unix, MacOS and Windows systems. For example:
+
 ```
 $> make cli
 go build -mod vendor -o bin/server cmd/server/main.go
