@@ -4,14 +4,14 @@ github.com/aaronland/go-aws-dynamodb
 # github.com/aaronland/go-aws-session v0.0.6
 ## explicit; go 1.12
 github.com/aaronland/go-aws-session
-# github.com/aaronland/go-roster v0.0.2
-## explicit; go 1.12
+# github.com/aaronland/go-roster v1.0.0
+## explicit; go 1.16
 github.com/aaronland/go-roster
 # github.com/aaronland/go-string v1.0.0
 ## explicit; go 1.16
 github.com/aaronland/go-string/dsn
 github.com/aaronland/go-string/random
-# github.com/aws/aws-sdk-go v1.44.114
+# github.com/aws/aws-sdk-go v1.44.124
 ## explicit; go 1.11
 github.com/aws/aws-sdk-go/aws
 github.com/aws/aws-sdk-go/aws/awserr
@@ -136,8 +136,8 @@ github.com/cespare/xxhash/v2
 # github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f
 ## explicit
 github.com/dgryski/go-rendezvous
-# github.com/go-redis/redis/v8 v8.11.2
-## explicit; go 1.13
+# github.com/go-redis/redis/v8 v8.11.5
+## explicit; go 1.17
 github.com/go-redis/redis/v8
 github.com/go-redis/redis/v8/internal
 github.com/go-redis/redis/v8/internal/hashtag
@@ -178,15 +178,15 @@ github.com/jmespath/go-jmespath
 # github.com/rs/cors v1.8.2
 ## explicit; go 1.13
 github.com/rs/cors
-# github.com/sfomuseum/go-flags v0.9.0
+# github.com/sfomuseum/go-flags v0.10.0
 ## explicit; go 1.16
 github.com/sfomuseum/go-flags/flagset
-# github.com/sfomuseum/go-pubsub v0.0.4
-## explicit; go 1.16
+# github.com/sfomuseum/go-pubsub v0.0.5
+## explicit; go 1.18
 github.com/sfomuseum/go-pubsub/publisher
 github.com/sfomuseum/go-pubsub/subscriber
-# github.com/whosonfirst/go-pubssed v0.5.1
-## explicit; go 1.16
+# github.com/whosonfirst/go-pubssed v0.5.3
+## explicit; go 1.18
 github.com/whosonfirst/go-pubssed/broker
 # go.opencensus.io v0.23.0
 ## explicit; go 1.13

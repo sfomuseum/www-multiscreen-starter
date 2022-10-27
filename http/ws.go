@@ -277,6 +277,9 @@ func WebsocketHandler(opts *WebsocketHandlerOptions) (http.Handler, error) {
 					// There is a newer code. If it's in use then this code is no longer
 					// valid and we drop the update on the floor
 
+					// log.Println("UPDATE", update_code.Created)
+					// log.Println("OTHER", other_code.LastUpdate)
+					
 					if other_code.Code != "" {
 
 						if other_code.LastUpdate > update_code.Created {
@@ -325,7 +328,7 @@ func WebsocketHandler(opts *WebsocketHandlerOptions) (http.Handler, error) {
 					now := time.Now()
 					ts := now.Unix()
 
-					// log.Printf("Set last update %d\n", ts)
+					// log.Printf("Set last update for %s %d\n", update_code.Code, ts)
 
 					mod := docstore.Mods{"LastUpdate": ts}
 					err = opts.Database.Update(ctx, update_code, mod)

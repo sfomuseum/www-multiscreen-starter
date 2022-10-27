@@ -6,17 +6,17 @@ require (
 	github.com/aaronland/go-aws-dynamodb v0.0.4
 	github.com/aaronland/go-aws-session v0.0.6
 	github.com/aaronland/go-string v1.0.0
-	github.com/aws/aws-sdk-go v1.44.114
+	github.com/aws/aws-sdk-go v1.44.124
 	github.com/gorilla/websocket v1.5.0
 	github.com/rs/cors v1.8.2
-	github.com/sfomuseum/go-flags v0.9.0
-	github.com/sfomuseum/go-pubsub v0.0.4
-	github.com/whosonfirst/go-pubssed v0.5.1
+	github.com/sfomuseum/go-flags v0.10.0
+	github.com/sfomuseum/go-pubsub v0.0.5
+	github.com/whosonfirst/go-pubssed v0.5.3
 	gocloud.dev v0.27.0
 )
 
 require (
-	github.com/aaronland/go-roster v0.0.2 // indirect
+	github.com/aaronland/go-roster v1.0.0 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.16.8 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.15.15 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.12.10 // indirect
@@ -30,7 +30,7 @@ require (
 	github.com/aws/smithy-go v1.12.0 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
-	github.com/go-redis/redis/v8 v8.11.2 // indirect
+	github.com/go-redis/redis/v8 v8.11.5 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/uuid v1.3.0 // indirect
